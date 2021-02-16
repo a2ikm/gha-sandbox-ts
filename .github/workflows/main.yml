@@ -1,0 +1,8 @@
+on: [push, pull_request]
+
+jobs:
+  gha-sandbox-ts:
+    runs-on: ubuntu-latest
+    name: A sandbox job
+    steps:
+    - uses: a2ikm/gha-sandbox-ts@v1
