@@ -1,0 +1,5 @@
+name: 'gha-sandbox-ts'
+description: 'This is a sandbox action'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
