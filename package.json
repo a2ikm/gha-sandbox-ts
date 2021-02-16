@@ -2,10 +2,12 @@
   "name": "gha-sandbox-ts",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/main.js",
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pack": "ncc build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "npm run build && npm run pack"
   },
   "keywords": [],
   "author": "",
