@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     name: A sandbox job
     steps:
-    - uses: a2ikm/gha-sandbox-ts@v1.1
+    - uses: a2ikm/gha-sandbox-ts@v1.1.0
 
   lint:
     runs-on: ubuntu-latest
