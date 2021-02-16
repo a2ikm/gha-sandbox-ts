@@ -1,0 +1,11 @@
+on:
+  workflow_run:
+    workflows:
+      - .github/workflows/main.yml
+
+jobs:
+  gha-sandbox-ts:
+    runs-on: ubuntu-latest
+    name: A sandbox job
+    steps:
+    - uses: a2ikm/gha-sandbox-ts@v1
