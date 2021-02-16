@@ -1,6 +1,6 @@
 {
   "name": "@a2ikm/gha-sandbox-ts",
-  "version": "1.1",
+  "version": "1.1.0",
   "description": "",
   "main": "lib/main.js",
   "scripts": {
