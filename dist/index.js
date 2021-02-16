@@ -573,7 +573,7 @@ const core = __importStar(__webpack_require__(470));
 const github = __importStar(__webpack_require__(469));
 try {
     const context = github.context;
-    core.info(`context.payload = ${context.payload}`);
+    core.info(`context.payload = ${JSON.stringify(context.payload)}`);
 }
 catch (error) {
     core.setFailed(error.message);
